@@ -1,10 +1,10 @@
 import { SummaryForm } from "@/components";
-import Options from "@/components/Options/options";
+import OrderEntry from "@/components/OrderEntry/orderEntry";
 
 const Index = () => {
     return (
         <div>
-            <Options optionType="scoops" />
+            <OrderEntry />
             <SummaryForm />
         </div>
     );
